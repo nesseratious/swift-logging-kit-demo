@@ -1,0 +1,19 @@
+--- LOG FOR SESSION B6E3050B-B024-4F44-A63B-39BE4FEC6B37 AT 2025-12-05 20:29:46.131 ---
+
+TRACE  2025-12-05 20:29:46.065 [Example] [main.demonstrateMacros(foo:)] This is a trace message using the #logTrace macro <redacted>
+DEBUG  2025-12-05 20:29:46.066 [Example] [main.demonstrateMacros(foo:)] This is a trace message using the #logDebug macro
+INFO   2025-12-05 20:29:46.066 [Example] [main.demonstrateMacros(foo:)] This is an info message using the #logInfo macro
+EVENT  2025-12-05 20:29:46.066 [Example] [main.demonstrateMacros(foo:)] This is a user event message using the #logUserEvent macro
+PERFR  2025-12-05 20:29:46.066 [Example] [main.demonstrateMacros(foo:)] This is a performance message using the #logPerformance macro
+SCCSS  2025-12-05 20:29:46.066 [Example] [main.demonstrateMacros(foo:)] This is an success message using the #logSuccess macro
+WARNG  2025-12-05 20:29:46.066 [Example] [main.demonstrateMacros(foo:)] This is a warning using the #logWarning macro
+NOTICE 2025-12-05 20:29:46.129 [Example] [main.demonstrateMacros(foo:)] This is a notice using the #logNotice macro
+ERROR  2025-12-05 20:29:46.129 [Example] [main.demonstrateMacros(foo:)] This is an error using the #logError macro
+CRITCL 2025-12-05 20:29:46.129 [Example] [main.demonstrateMacros(foo:)] This is a critial using the #logCritical macro
+FAULT  2025-12-05 20:29:46.129 [Example] [main.demonstrateMacros(foo:)] This is a fault using the #logFault macro
+INFO   2025-12-05 20:29:46.129 [Example] [main.demonstrateMacros(foo:)] This info message uses a custom logger
+WARNG  2025-12-05 20:29:46.129 [Example] [main.demonstrateMacros(foo:)] This warning uses a custom logger
+ERROR  2025-12-05 20:29:46.129 [Example] [main.demonstrateMacros(foo:)] This error uses a custom logger
+INFO   2025-12-05 20:29:46.131 [Default] [Log.saveCurrentSession()] Saving diagnostics file.
+
+--- END LOG FOR SESSION B6E3050B-B024-4F44-A63B-39BE4FEC6B37 ---

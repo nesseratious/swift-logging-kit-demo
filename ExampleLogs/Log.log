@@ -1,0 +1,25 @@
+
+--- LOG FOR SESSION 85992799-C04E-47AB-A916-9C72FA62B68E AT 2025-12-11 23:06:52.653 ---
+
+TRACE  2025-12-11 23:06:52.651 [Verbose] This is a trace message using the #logTrace macro
+DEBUG  2025-12-11 23:06:52.653 [Verbose] This is a trace message using the #logDebug macro
+INFO   2025-12-11 23:06:52.653 [Verbose] This is an info message using the #logInfo macro
+WARNG  2025-12-11 23:06:52.653 [Verbose] This is a warning using the #logWarning macro
+NOTICE 2025-12-11 23:06:52.653 [Verbose] This is a notice using the #logNotice macro
+ERROR  2025-12-11 23:06:52.653 [Verbose] This is an error using the #logError macro
+CRITCL 2025-12-11 23:06:52.653 [Verbose] This is a critial using the #logCritical macro
+FAULT  2025-12-11 23:06:52.653 [Verbose] This is a fault using the #logFault macro
+
+--- END LOG FOR SESSION 85992799-C04E-47AB-A916-9C72FA62B68E ---
+--- LOG FOR SESSION 0C144988-4870-4931-81BC-60174A251BD5 AT 2025-12-11 23:07:23.315 ---
+
+TRACE  2025-12-11 23:07:23.313 [Verbose] [7.run()] This is a trace message using the #logTrace macro
+DEBUG  2025-12-11 23:07:23.315 [Verbose] [7.run()] This is a trace message using the #logDebug macro
+INFO   2025-12-11 23:07:23.315 [Verbose] [7.run()] This is an info message using the #logInfo macro
+WARNG  2025-12-11 23:07:23.315 [Verbose] [7.run()] This is a warning using the #logWarning macro
+NOTICE 2025-12-11 23:07:23.315 [Verbose] [7.run()] This is a notice using the #logNotice macro
+ERROR  2025-12-11 23:07:23.315 [Verbose] [7.run()] This is an error using the #logError macro
+CRITCL 2025-12-11 23:07:23.315 [Verbose] [7.run()] This is a critial using the #logCritical macro
+FAULT  2025-12-11 23:07:23.315 [Verbose] [7.run()] This is a fault using the #logFault macro
+
+--- END LOG FOR SESSION 0C144988-4870-4931-81BC-60174A251BD5 ---
