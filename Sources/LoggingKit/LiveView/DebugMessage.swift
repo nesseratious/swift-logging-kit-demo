@@ -6,12 +6,20 @@
 //
 
 import Foundation
+
+#if canImport(SwiftUI)
 import SwiftUI
+
+extension Log.DebugMessage: Identifiable {
+    /// Unique identifier based on the timestamp.
+    public var id: Date { timestamp }
+}
+#endif // canImport(SwiftUI)
 
 extension Log {
     
     /// Represents a single debug log message with metadata.
-    @frozen public struct DebugMessage: Identifiable, Hashable, Sendable {
+    @frozen public struct DebugMessage: Hashable, Sendable {
         
         /// The subsystem that generated this log message.
         public let subsystem: String
@@ -24,9 +32,6 @@ extension Log {
         
         /// The timestamp when this log message was created.
         public let timestamp: Date
-        
-        /// Unique identifier based on the timestamp.
-        public var id: Date { timestamp }
         
         @inlinable
         init(subsystem: String, message: String, level: Level, timestamp: Date) {
@@ -121,6 +126,7 @@ extension Log {
             case fault
         }
         
+#if canImport(SwiftUI)
         public var image: Image {
             switch level {
             case .trace:
@@ -188,6 +194,28 @@ extension Log {
             }
         }
         
+        public var tintColor: Color {
+            switch level {
+            case .trace, .debug, .info, .userEvent:
+                return .clear
+            case .performance:
+                return .clear.opacity(0.5)
+            case .success:
+                return .green.opacity(0.5)
+            case .notice:
+                return .indigo.opacity(0.5)
+            case .warning:
+                return .yellow.opacity(0.5)
+            case .error:
+                return .yellow.opacity(0.5)
+            case .critical:
+                return .red.opacity(0.5)
+            case .fault:
+                return .red.opacity(0.5)
+            }
+        }
+#endif // canImport(SwiftUI)
+        
         public var typeString: String {
             switch level {
             case .trace:
@@ -212,27 +240,6 @@ extension Log {
                 return "Critical"
             case .fault:
                 return "Fault"
-            }
-        }
-        
-        public var tintColor: Color {
-            switch level {
-            case .trace, .debug, .info, .userEvent:
-                return .clear
-            case .performance:
-                return .clear.opacity(0.5)
-            case .success:
-                return .green.opacity(0.5)
-            case .notice:
-                return .indigo.opacity(0.5)
-            case .warning:
-                return .yellow.opacity(0.5)
-            case .error:
-                return .yellow.opacity(0.5)
-            case .critical:
-                return .red.opacity(0.5)
-            case .fault:
-                return .red.opacity(0.5)
             }
         }
     }

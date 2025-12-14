@@ -13,3 +13,4 @@ Package.resolved
 *.dia
 *.o
 *.swiftdeps
+.vscode/launch.json

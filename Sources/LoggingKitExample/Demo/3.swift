@@ -7,7 +7,7 @@
 
 import LoggingKit
 
-struct TimelineRenderer: Loggable {
+class TimelineRenderer: Loggable {
     static let subsystem = "Timeline"
     
     func render() {

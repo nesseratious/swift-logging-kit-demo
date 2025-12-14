@@ -6,7 +6,14 @@
 //
 
 import Foundation
+
+#if canImport(OSLog)
 import OSLog
+public typealias OSLogMessage = os.OSLogMessage
+#else
+// Stub OSLogMessage for platforms without OSLog (e.g., Windows)
+public typealias OSLogMessage = String
+#endif
 
 /// Macro for logging trace-level messages.
 /// Expands to: `Self.trace(message, #file, #function)`

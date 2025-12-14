@@ -6,6 +6,8 @@
 //
 
 import Foundation
+
+#if canImport(SwiftUI)
 import Combine
 import SwiftUI
 
@@ -123,3 +125,4 @@ public final class LiveLogsViewModel: ObservableObject {
         localLogs = filtered.sorted { $0.timestamp < $1.timestamp }
     }
 }
+#endif // canImport(SwiftUI)

@@ -1,22 +1,24 @@
 {
     "configurations": [
         {
-            "type": "lldb",
+            "type": "swift",
             "request": "launch",
             "args": [],
             "cwd": "${workspaceFolder:swift-logging-kit}",
             "name": "Debug LoggingKitExample",
-            "program": "${workspaceFolder:swift-logging-kit}/.build/debug/LoggingKitExample",
-            "preLaunchTask": "swift: Build Debug LoggingKitExample"
+            "preLaunchTask": "swift: Build Debug LoggingKitExample",
+            "target": "LoggingKitExample",
+            "configuration": "debug"
         },
         {
-            "type": "lldb",
+            "type": "swift",
             "request": "launch",
             "args": [],
             "cwd": "${workspaceFolder:swift-logging-kit}",
             "name": "Release LoggingKitExample",
-            "program": "${workspaceFolder:swift-logging-kit}/.build/release/LoggingKitExample",
-            "preLaunchTask": "swift: Build Release LoggingKitExample"
+            "preLaunchTask": "swift: Build Release LoggingKitExample",
+            "target": "LoggingKitExample",
+            "configuration": "release"
         }
     ]
 }

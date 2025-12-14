@@ -16,11 +16,11 @@ func OSLogMessageExample() {
     #logInfo("User address: \(userAdrress)")
     
     // Full public
-//    let userCardNumber = "1234-5678-9012-3456 12/35 789"
-//    #logInfo("User card number: \(userCardNumber, privacy: .public)")
+    let userCardNumber = "1234-5678-9012-3456 12/35 789"
+    #logInfo("User card number: \(userCardNumber)")
     
     // Private
-//    let userHoroscope = "Sagittarius"
-//    #logInfo("User horoscope: \(userHoroscope, privacy: .private)")
+    let userHoroscope = "Sagittarius"
+    #logInfo("User horoscope: \(userHoroscope)")
     
 }

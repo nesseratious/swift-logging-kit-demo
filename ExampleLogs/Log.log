@@ -1,25 +1,258 @@
+--- LOG FOR SESSION AB9038F2-073E-47C4-BB70-23EF60FC5DE3 AT 2025-12-14 17:40:16.653 ---
 
---- LOG FOR SESSION 85992799-C04E-47AB-A916-9C72FA62B68E AT 2025-12-11 23:06:52.653 ---
+INFO   2025-12-14 17:40:16.652 [Default]  HELLO FROM WINDOWS!
+TRACE  2025-12-14 17:40:16.653 [Example]  This is a trace message using the #logTrace macro CARD NUMBER: 1234456677
+DEBUG  2025-12-14 17:40:16.653 [Example]  This is a trace message using the #logDebug macro
+INFO   2025-12-14 17:40:16.653 [Example]  This is an info message using the #logInfo macro
+EVENT  2025-12-14 17:40:16.653 [Example]  This is a user event message using the #logUserEvent macro
+PERFR  2025-12-14 17:40:16.653 [Example]  This is a performance message using the #logPerformance macro
+SCCSS  2025-12-14 17:40:16.653 [Example]  This is an success message using the #logSuccess macro
+WARNG  2025-12-14 17:40:16.653 [Example]  This is a warning using the #logWarning macro
+NOTICE 2025-12-14 17:40:16.653 [Example]  This is a notice using the #logNotice macro
+ERROR  2025-12-14 17:40:16.653 [Example]  This is an error using the #logError macro
+CRITCL 2025-12-14 17:40:16.653 [Example]  This is a critial using the #logCritical macro
+FAULT  2025-12-14 17:40:16.653 [Example]  This is a fault using the #logFault macro
+INFO   2025-12-14 17:40:16.653 [Example]  This info message uses a custom logger
+WARNG  2025-12-14 17:40:16.653 [Example]  This warning uses a custom logger
+ERROR  2025-12-14 17:40:16.653 [Example]  This error uses a custom logger
 
-TRACE  2025-12-11 23:06:52.651 [Verbose] This is a trace message using the #logTrace macro
-DEBUG  2025-12-11 23:06:52.653 [Verbose] This is a trace message using the #logDebug macro
-INFO   2025-12-11 23:06:52.653 [Verbose] This is an info message using the #logInfo macro
-WARNG  2025-12-11 23:06:52.653 [Verbose] This is a warning using the #logWarning macro
-NOTICE 2025-12-11 23:06:52.653 [Verbose] This is a notice using the #logNotice macro
-ERROR  2025-12-11 23:06:52.653 [Verbose] This is an error using the #logError macro
-CRITCL 2025-12-11 23:06:52.653 [Verbose] This is a critial using the #logCritical macro
-FAULT  2025-12-11 23:06:52.653 [Verbose] This is a fault using the #logFault macro
+--- END LOG FOR SESSION AB9038F2-073E-47C4-BB70-23EF60FC5DE3 ---
+--- LOG FOR SESSION AB9038F2-073E-47C4-BB70-23EF60FC5DE3 AT 2025-12-14 17:40:16.656 ---
 
---- END LOG FOR SESSION 85992799-C04E-47AB-A916-9C72FA62B68E ---
---- LOG FOR SESSION 0C144988-4870-4931-81BC-60174A251BD5 AT 2025-12-11 23:07:23.315 ---
+INFO   2025-12-14 17:40:16.652 [Default]  HELLO FROM WINDOWS!
+TRACE  2025-12-14 17:40:16.653 [Example]  This is a trace message using the #logTrace macro CARD NUMBER: 1234456677
+DEBUG  2025-12-14 17:40:16.653 [Example]  This is a trace message using the #logDebug macro
+INFO   2025-12-14 17:40:16.653 [Example]  This is an info message using the #logInfo macro
+EVENT  2025-12-14 17:40:16.653 [Example]  This is a user event message using the #logUserEvent macro
+PERFR  2025-12-14 17:40:16.653 [Example]  This is a performance message using the #logPerformance macro
+SCCSS  2025-12-14 17:40:16.653 [Example]  This is an success message using the #logSuccess macro
+WARNG  2025-12-14 17:40:16.653 [Example]  This is a warning using the #logWarning macro
+NOTICE 2025-12-14 17:40:16.653 [Example]  This is a notice using the #logNotice macro
+ERROR  2025-12-14 17:40:16.653 [Example]  This is an error using the #logError macro
+CRITCL 2025-12-14 17:40:16.653 [Example]  This is a critial using the #logCritical macro
+FAULT  2025-12-14 17:40:16.653 [Example]  This is a fault using the #logFault macro
+INFO   2025-12-14 17:40:16.653 [Example]  This info message uses a custom logger
+WARNG  2025-12-14 17:40:16.653 [Example]  This warning uses a custom logger
+ERROR  2025-12-14 17:40:16.653 [Example]  This error uses a custom logger
 
-TRACE  2025-12-11 23:07:23.313 [Verbose] [7.run()] This is a trace message using the #logTrace macro
-DEBUG  2025-12-11 23:07:23.315 [Verbose] [7.run()] This is a trace message using the #logDebug macro
-INFO   2025-12-11 23:07:23.315 [Verbose] [7.run()] This is an info message using the #logInfo macro
-WARNG  2025-12-11 23:07:23.315 [Verbose] [7.run()] This is a warning using the #logWarning macro
-NOTICE 2025-12-11 23:07:23.315 [Verbose] [7.run()] This is a notice using the #logNotice macro
-ERROR  2025-12-11 23:07:23.315 [Verbose] [7.run()] This is an error using the #logError macro
-CRITCL 2025-12-11 23:07:23.315 [Verbose] [7.run()] This is a critial using the #logCritical macro
-FAULT  2025-12-11 23:07:23.315 [Verbose] [7.run()] This is a fault using the #logFault macro
+--- END LOG FOR SESSION AB9038F2-073E-47C4-BB70-23EF60FC5DE3 ---
+--- LOG FOR SESSION DDC13C17-D901-427F-AB9C-88F23312D42E AT 2025-12-14 17:41:59.839 ---
 
---- END LOG FOR SESSION 0C144988-4870-4931-81BC-60174A251BD5 ---
+INFO   2025-12-14 17:41:59.838 [Default]  HELLO FROM WINDOWS!
+TRACE  2025-12-14 17:41:59.839 [Example]  This is a trace message using the #logTrace macro CARD NUMBER: 1234456677
+DEBUG  2025-12-14 17:41:59.839 [Example]  This is a trace message using the #logDebug macro
+INFO   2025-12-14 17:41:59.839 [Example]  This is an info message using the #logInfo macro
+EVENT  2025-12-14 17:41:59.839 [Example]  This is a user event message using the #logUserEvent macro
+PERFR  2025-12-14 17:41:59.839 [Example]  This is a performance message using the #logPerformance macro
+SCCSS  2025-12-14 17:41:59.839 [Example]  This is an success message using the #logSuccess macro
+WARNG  2025-12-14 17:41:59.839 [Example]  This is a warning using the #logWarning macro
+NOTICE 2025-12-14 17:41:59.839 [Example]  This is a notice using the #logNotice macro
+ERROR  2025-12-14 17:41:59.839 [Example]  This is an error using the #logError macro
+CRITCL 2025-12-14 17:41:59.839 [Example]  This is a critial using the #logCritical macro
+FAULT  2025-12-14 17:41:59.839 [Example]  This is a fault using the #logFault macro
+INFO   2025-12-14 17:41:59.839 [Example]  This info message uses a custom logger
+WARNG  2025-12-14 17:41:59.839 [Example]  This warning uses a custom logger
+ERROR  2025-12-14 17:41:59.839 [Example]  This error uses a custom logger
+
+--- END LOG FOR SESSION DDC13C17-D901-427F-AB9C-88F23312D42E ---
+--- LOG FOR SESSION DDC13C17-D901-427F-AB9C-88F23312D42E AT 2025-12-14 17:41:59.840 ---
+
+INFO   2025-12-14 17:41:59.838 [Default]  HELLO FROM WINDOWS!
+TRACE  2025-12-14 17:41:59.839 [Example]  This is a trace message using the #logTrace macro CARD NUMBER: 1234456677
+DEBUG  2025-12-14 17:41:59.839 [Example]  This is a trace message using the #logDebug macro
+INFO   2025-12-14 17:41:59.839 [Example]  This is an info message using the #logInfo macro
+EVENT  2025-12-14 17:41:59.839 [Example]  This is a user event message using the #logUserEvent macro
+PERFR  2025-12-14 17:41:59.839 [Example]  This is a performance message using the #logPerformance macro
+SCCSS  2025-12-14 17:41:59.839 [Example]  This is an success message using the #logSuccess macro
+WARNG  2025-12-14 17:41:59.839 [Example]  This is a warning using the #logWarning macro
+NOTICE 2025-12-14 17:41:59.839 [Example]  This is a notice using the #logNotice macro
+ERROR  2025-12-14 17:41:59.839 [Example]  This is an error using the #logError macro
+CRITCL 2025-12-14 17:41:59.839 [Example]  This is a critial using the #logCritical macro
+FAULT  2025-12-14 17:41:59.839 [Example]  This is a fault using the #logFault macro
+INFO   2025-12-14 17:41:59.839 [Example]  This info message uses a custom logger
+WARNG  2025-12-14 17:41:59.839 [Example]  This warning uses a custom logger
+ERROR  2025-12-14 17:41:59.839 [Example]  This error uses a custom logger
+
+--- END LOG FOR SESSION DDC13C17-D901-427F-AB9C-88F23312D42E ---
+--- LOG FOR SESSION AAB72024-4241-44E8-A4D3-8D791D93DDC1 AT 2025-12-14 17:46:45.588 ---
+
+INFO   2025-12-14 17:46:45.588 [Default]  HELLO FROM WINDOWS!
+TRACE  2025-12-14 17:46:45.588 [Example]  This is a trace message using the #logTrace macro CARD NUMBER: 1234456677
+DEBUG  2025-12-14 17:46:45.588 [Example]  This is a trace message using the #logDebug macro
+INFO   2025-12-14 17:46:45.588 [Example]  This is an info message using the #logInfo macro
+EVENT  2025-12-14 17:46:45.588 [Example]  This is a user event message using the #logUserEvent macro
+PERFR  2025-12-14 17:46:45.588 [Example]  This is a performance message using the #logPerformance macro
+SCCSS  2025-12-14 17:46:45.588 [Example]  This is an success message using the #logSuccess macro
+WARNG  2025-12-14 17:46:45.588 [Example]  This is a warning using the #logWarning macro
+NOTICE 2025-12-14 17:46:45.588 [Example]  This is a notice using the #logNotice macro
+ERROR  2025-12-14 17:46:45.588 [Example]  This is an error using the #logError macro
+CRITCL 2025-12-14 17:46:45.588 [Example]  This is a critial using the #logCritical macro
+FAULT  2025-12-14 17:46:45.588 [Example]  This is a fault using the #logFault macro
+INFO   2025-12-14 17:46:45.588 [Example]  This info message uses a custom logger
+WARNG  2025-12-14 17:46:45.588 [Example]  This warning uses a custom logger
+ERROR  2025-12-14 17:46:45.588 [Example]  This error uses a custom logger
+
+--- END LOG FOR SESSION AAB72024-4241-44E8-A4D3-8D791D93DDC1 ---
+--- LOG FOR SESSION AAB72024-4241-44E8-A4D3-8D791D93DDC1 AT 2025-12-14 17:46:45.589 ---
+
+INFO   2025-12-14 17:46:45.588 [Default]  HELLO FROM WINDOWS!
+TRACE  2025-12-14 17:46:45.588 [Example]  This is a trace message using the #logTrace macro CARD NUMBER: 1234456677
+DEBUG  2025-12-14 17:46:45.588 [Example]  This is a trace message using the #logDebug macro
+INFO   2025-12-14 17:46:45.588 [Example]  This is an info message using the #logInfo macro
+EVENT  2025-12-14 17:46:45.588 [Example]  This is a user event message using the #logUserEvent macro
+PERFR  2025-12-14 17:46:45.588 [Example]  This is a performance message using the #logPerformance macro
+SCCSS  2025-12-14 17:46:45.588 [Example]  This is an success message using the #logSuccess macro
+WARNG  2025-12-14 17:46:45.588 [Example]  This is a warning using the #logWarning macro
+NOTICE 2025-12-14 17:46:45.588 [Example]  This is a notice using the #logNotice macro
+ERROR  2025-12-14 17:46:45.588 [Example]  This is an error using the #logError macro
+CRITCL 2025-12-14 17:46:45.588 [Example]  This is a critial using the #logCritical macro
+FAULT  2025-12-14 17:46:45.588 [Example]  This is a fault using the #logFault macro
+INFO   2025-12-14 17:46:45.588 [Example]  This info message uses a custom logger
+WARNG  2025-12-14 17:46:45.588 [Example]  This warning uses a custom logger
+ERROR  2025-12-14 17:46:45.588 [Example]  This error uses a custom logger
+
+--- END LOG FOR SESSION AAB72024-4241-44E8-A4D3-8D791D93DDC1 ---
+--- LOG FOR SESSION B8C2BFFC-F238-4384-A5F4-2362E0B94660 AT 2025-12-14 17:48:55.247 ---
+
+INFO   2025-12-14 17:48:55.245 [Default]  HELLO FROM WINDOWS!
+TRACE  2025-12-14 17:48:55.245 [Timeline]  Entering render function, initializing timeline components
+TRACE  2025-12-14 17:48:55.245 [Day Renderer]  Rendering day with index 0
+TRACE  2025-12-14 17:48:55.245 [Day Renderer]  Rendering day with index 1
+TRACE  2025-12-14 17:48:55.245 [Day Renderer]  Rendering day with index 2
+TRACE  2025-12-14 17:48:55.245 [Day Renderer]  Rendering day with index 3
+TRACE  2025-12-14 17:48:55.245 [Day Renderer]  Rendering day with index 4
+TRACE  2025-12-14 17:48:55.246 [Day Renderer]  Rendering day with index 5
+TRACE  2025-12-14 17:48:55.246 [Day Renderer]  Rendering day with index 6
+TRACE  2025-12-14 17:48:55.246 [Day Renderer]  Rendering day with index 7
+TRACE  2025-12-14 17:48:55.246 [Day Renderer]  Rendering day with index 8
+TRACE  2025-12-14 17:48:55.246 [Day Renderer]  Rendering day with index 9
+TRACE  2025-12-14 17:48:55.246 [Day Renderer]  Rendering day with index 10
+DEBUG  2025-12-14 17:48:55.246 [Timeline]  Timeline data loaded: 42 events found
+INFO   2025-12-14 17:48:55.246 [Timeline]  Rendering timeline view for user dashboard
+WARNG  2025-12-14 17:48:55.246 [Timeline]  Timeline cache is nearly full, consider clearing old entries
+CRITCL 2025-12-14 17:48:55.246 [Timeline]  Timeline renderer failed: memory allocation failed
+FAULT  2025-12-14 17:48:55.246 [Timeline]  System fault detected: divide by zero, universe is collapsing
+TRACE  2025-12-14 17:48:55.246 [Example]  This is a trace message using the #logTrace macro CARD NUMBER: 1234456677
+DEBUG  2025-12-14 17:48:55.246 [Example]  This is a trace message using the #logDebug macro
+INFO   2025-12-14 17:48:55.246 [Example]  This is an info message using the #logInfo macro
+EVENT  2025-12-14 17:48:55.246 [Example]  This is a user event message using the #logUserEvent macro
+PERFR  2025-12-14 17:48:55.246 [Example]  This is a performance message using the #logPerformance macro
+SCCSS  2025-12-14 17:48:55.246 [Example]  This is an success message using the #logSuccess macro
+WARNG  2025-12-14 17:48:55.246 [Example]  This is a warning using the #logWarning macro
+NOTICE 2025-12-14 17:48:55.246 [Example]  This is a notice using the #logNotice macro
+ERROR  2025-12-14 17:48:55.246 [Example]  This is an error using the #logError macro
+CRITCL 2025-12-14 17:48:55.246 [Example]  This is a critial using the #logCritical macro
+FAULT  2025-12-14 17:48:55.246 [Example]  This is a fault using the #logFault macro
+INFO   2025-12-14 17:48:55.246 [Example]  This info message uses a custom logger
+WARNG  2025-12-14 17:48:55.247 [Example]  This warning uses a custom logger
+ERROR  2025-12-14 17:48:55.247 [Example]  This error uses a custom logger
+
+--- END LOG FOR SESSION B8C2BFFC-F238-4384-A5F4-2362E0B94660 ---
+--- LOG FOR SESSION B8C2BFFC-F238-4384-A5F4-2362E0B94660 AT 2025-12-14 17:48:55.247 ---
+
+INFO   2025-12-14 17:48:55.245 [Default]  HELLO FROM WINDOWS!
+TRACE  2025-12-14 17:48:55.245 [Timeline]  Entering render function, initializing timeline components
+TRACE  2025-12-14 17:48:55.245 [Day Renderer]  Rendering day with index 0
+TRACE  2025-12-14 17:48:55.245 [Day Renderer]  Rendering day with index 1
+TRACE  2025-12-14 17:48:55.245 [Day Renderer]  Rendering day with index 2
+TRACE  2025-12-14 17:48:55.245 [Day Renderer]  Rendering day with index 3
+TRACE  2025-12-14 17:48:55.245 [Day Renderer]  Rendering day with index 4
+TRACE  2025-12-14 17:48:55.246 [Day Renderer]  Rendering day with index 5
+TRACE  2025-12-14 17:48:55.246 [Day Renderer]  Rendering day with index 6
+TRACE  2025-12-14 17:48:55.246 [Day Renderer]  Rendering day with index 7
+TRACE  2025-12-14 17:48:55.246 [Day Renderer]  Rendering day with index 8
+TRACE  2025-12-14 17:48:55.246 [Day Renderer]  Rendering day with index 9
+TRACE  2025-12-14 17:48:55.246 [Day Renderer]  Rendering day with index 10
+DEBUG  2025-12-14 17:48:55.246 [Timeline]  Timeline data loaded: 42 events found
+INFO   2025-12-14 17:48:55.246 [Timeline]  Rendering timeline view for user dashboard
+WARNG  2025-12-14 17:48:55.246 [Timeline]  Timeline cache is nearly full, consider clearing old entries
+CRITCL 2025-12-14 17:48:55.246 [Timeline]  Timeline renderer failed: memory allocation failed
+FAULT  2025-12-14 17:48:55.246 [Timeline]  System fault detected: divide by zero, universe is collapsing
+TRACE  2025-12-14 17:48:55.246 [Example]  This is a trace message using the #logTrace macro CARD NUMBER: 1234456677
+DEBUG  2025-12-14 17:48:55.246 [Example]  This is a trace message using the #logDebug macro
+INFO   2025-12-14 17:48:55.246 [Example]  This is an info message using the #logInfo macro
+EVENT  2025-12-14 17:48:55.246 [Example]  This is a user event message using the #logUserEvent macro
+PERFR  2025-12-14 17:48:55.246 [Example]  This is a performance message using the #logPerformance macro
+SCCSS  2025-12-14 17:48:55.246 [Example]  This is an success message using the #logSuccess macro
+WARNG  2025-12-14 17:48:55.246 [Example]  This is a warning using the #logWarning macro
+NOTICE 2025-12-14 17:48:55.246 [Example]  This is a notice using the #logNotice macro
+ERROR  2025-12-14 17:48:55.246 [Example]  This is an error using the #logError macro
+CRITCL 2025-12-14 17:48:55.246 [Example]  This is a critial using the #logCritical macro
+FAULT  2025-12-14 17:48:55.246 [Example]  This is a fault using the #logFault macro
+INFO   2025-12-14 17:48:55.246 [Example]  This info message uses a custom logger
+WARNG  2025-12-14 17:48:55.247 [Example]  This warning uses a custom logger
+ERROR  2025-12-14 17:48:55.247 [Example]  This error uses a custom logger
+
+--- END LOG FOR SESSION B8C2BFFC-F238-4384-A5F4-2362E0B94660 ---
+--- LOG FOR SESSION 946C2182-10F8-4592-944C-23CEBFCB88D2 AT 2025-12-14 17:58:31.285 ---
+
+INFO   2025-12-14 17:58:31.283 [Default]  HELLO FROM WINDOWS!
+TRACE  2025-12-14 17:58:31.283 [Timeline]  Entering render function, initializing timeline components
+TRACE  2025-12-14 17:58:31.284 [Day Renderer]  Rendering day with index 0
+TRACE  2025-12-14 17:58:31.284 [Day Renderer]  Rendering day with index 1
+TRACE  2025-12-14 17:58:31.284 [Day Renderer]  Rendering day with index 2
+TRACE  2025-12-14 17:58:31.284 [Day Renderer]  Rendering day with index 3
+TRACE  2025-12-14 17:58:31.284 [Day Renderer]  Rendering day with index 4
+TRACE  2025-12-14 17:58:31.284 [Day Renderer]  Rendering day with index 5
+TRACE  2025-12-14 17:58:31.284 [Day Renderer]  Rendering day with index 6
+TRACE  2025-12-14 17:58:31.284 [Day Renderer]  Rendering day with index 7
+TRACE  2025-12-14 17:58:31.284 [Day Renderer]  Rendering day with index 8
+TRACE  2025-12-14 17:58:31.284 [Day Renderer]  Rendering day with index 9
+TRACE  2025-12-14 17:58:31.284 [Day Renderer]  Rendering day with index 10
+DEBUG  2025-12-14 17:58:31.284 [Timeline]  Timeline data loaded: 42 events found
+INFO   2025-12-14 17:58:31.284 [Timeline]  Rendering timeline view for user dashboard
+WARNG  2025-12-14 17:58:31.284 [Timeline]  Timeline cache is nearly full, consider clearing old entries
+CRITCL 2025-12-14 17:58:31.284 [Timeline]  Timeline renderer failed: memory allocation failed
+FAULT  2025-12-14 17:58:31.284 [Timeline]  System fault detected: divide by zero, universe is collapsing
+TRACE  2025-12-14 17:58:31.284 [Example]  This is a trace message using the #logTrace macro CARD NUMBER: 1234456677
+DEBUG  2025-12-14 17:58:31.285 [Example]  This is a trace message using the #logDebug macro
+INFO   2025-12-14 17:58:31.285 [Example]  This is an info message using the #logInfo macro
+EVENT  2025-12-14 17:58:31.285 [Example]  This is a user event message using the #logUserEvent macro
+PERFR  2025-12-14 17:58:31.285 [Example]  This is a performance message using the #logPerformance macro
+SCCSS  2025-12-14 17:58:31.285 [Example]  This is an success message using the #logSuccess macro
+WARNG  2025-12-14 17:58:31.285 [Example]  This is a warning using the #logWarning macro
+NOTICE 2025-12-14 17:58:31.285 [Example]  This is a notice using the #logNotice macro
+ERROR  2025-12-14 17:58:31.285 [Example]  This is an error using the #logError macro
+CRITCL 2025-12-14 17:58:31.285 [Example]  This is a critial using the #logCritical macro
+FAULT  2025-12-14 17:58:31.285 [Example]  This is a fault using the #logFault macro
+INFO   2025-12-14 17:58:31.285 [Example]  This info message uses a custom logger
+WARNG  2025-12-14 17:58:31.285 [Example]  This warning uses a custom logger
+ERROR  2025-12-14 17:58:31.285 [Example]  This error uses a custom logger
+
+--- END LOG FOR SESSION 946C2182-10F8-4592-944C-23CEBFCB88D2 ---
+--- LOG FOR SESSION 946C2182-10F8-4592-944C-23CEBFCB88D2 AT 2025-12-14 17:58:31.286 ---
+
+INFO   2025-12-14 17:58:31.283 [Default]  HELLO FROM WINDOWS!
+TRACE  2025-12-14 17:58:31.283 [Timeline]  Entering render function, initializing timeline components
+TRACE  2025-12-14 17:58:31.284 [Day Renderer]  Rendering day with index 0
+TRACE  2025-12-14 17:58:31.284 [Day Renderer]  Rendering day with index 1
+TRACE  2025-12-14 17:58:31.284 [Day Renderer]  Rendering day with index 2
+TRACE  2025-12-14 17:58:31.284 [Day Renderer]  Rendering day with index 3
+TRACE  2025-12-14 17:58:31.284 [Day Renderer]  Rendering day with index 4
+TRACE  2025-12-14 17:58:31.284 [Day Renderer]  Rendering day with index 5
+TRACE  2025-12-14 17:58:31.284 [Day Renderer]  Rendering day with index 6
+TRACE  2025-12-14 17:58:31.284 [Day Renderer]  Rendering day with index 7
+TRACE  2025-12-14 17:58:31.284 [Day Renderer]  Rendering day with index 8
+TRACE  2025-12-14 17:58:31.284 [Day Renderer]  Rendering day with index 9
+TRACE  2025-12-14 17:58:31.284 [Day Renderer]  Rendering day with index 10
+DEBUG  2025-12-14 17:58:31.284 [Timeline]  Timeline data loaded: 42 events found
+INFO   2025-12-14 17:58:31.284 [Timeline]  Rendering timeline view for user dashboard
+WARNG  2025-12-14 17:58:31.284 [Timeline]  Timeline cache is nearly full, consider clearing old entries
+CRITCL 2025-12-14 17:58:31.284 [Timeline]  Timeline renderer failed: memory allocation failed
+FAULT  2025-12-14 17:58:31.284 [Timeline]  System fault detected: divide by zero, universe is collapsing
+TRACE  2025-12-14 17:58:31.284 [Example]  This is a trace message using the #logTrace macro CARD NUMBER: 1234456677
+DEBUG  2025-12-14 17:58:31.285 [Example]  This is a trace message using the #logDebug macro
+INFO   2025-12-14 17:58:31.285 [Example]  This is an info message using the #logInfo macro
+EVENT  2025-12-14 17:58:31.285 [Example]  This is a user event message using the #logUserEvent macro
+PERFR  2025-12-14 17:58:31.285 [Example]  This is a performance message using the #logPerformance macro
+SCCSS  2025-12-14 17:58:31.285 [Example]  This is an success message using the #logSuccess macro
+WARNG  2025-12-14 17:58:31.285 [Example]  This is a warning using the #logWarning macro
+NOTICE 2025-12-14 17:58:31.285 [Example]  This is a notice using the #logNotice macro
+ERROR  2025-12-14 17:58:31.285 [Example]  This is an error using the #logError macro
+CRITCL 2025-12-14 17:58:31.285 [Example]  This is a critial using the #logCritical macro
+FAULT  2025-12-14 17:58:31.285 [Example]  This is a fault using the #logFault macro
+INFO   2025-12-14 17:58:31.285 [Example]  This info message uses a custom logger
+WARNG  2025-12-14 17:58:31.285 [Example]  This warning uses a custom logger
+ERROR  2025-12-14 17:58:31.285 [Example]  This error uses a custom logger
+
+--- END LOG FOR SESSION 946C2182-10F8-4592-944C-23CEBFCB88D2 ---

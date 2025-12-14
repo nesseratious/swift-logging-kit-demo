@@ -17,6 +17,9 @@ struct VerboseLogger: Loggable {
         #logDebug("This is a trace message using the #logDebug macro")
         #logInfo("This is an info message using the #logInfo macro")
         #logWarning("This is a warning using the #logWarning macro")
+        
+        Log.enableVerboseLogging = false
+        
         #logNotice("This is a notice using the #logNotice macro")
         #logError("This is an error using the #logError macro")
         #logCritical("This is a critial using the #logCritical macro")

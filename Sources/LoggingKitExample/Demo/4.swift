@@ -6,6 +6,8 @@
 //
 
 import LoggingKit
+
+#if canImport(SwiftUI)
 import SwiftUI
 
 struct DayView: View, @MainActor Loggable {
@@ -27,6 +29,10 @@ struct DayView: View, @MainActor Loggable {
 }
 
 struct WeekView: View {
+    init() {
+        Log.defaultSubsystem = "WeekView"
+    }
+    
     var body: some View {
         VStack {
             Text("Day View")
@@ -36,6 +42,7 @@ struct WeekView: View {
         }
     }
 }
+#endif
 
 func globalFunction() {
     #logInfo("Rendering day with index")

@@ -6,7 +6,10 @@
 //
 
 import Foundation
-import SwiftUI
+
+#if canImport(Combine)
+import Combine
+#endif
 
 /// Observable object that maintains a history of debug log messages.
 /// Used by SwiftUI views to display and filter logs.
@@ -15,9 +18,15 @@ public final class LiveLogHistory: ObservableObject {
     /// Shared singleton instance of LogHistory.
     nonisolated(unsafe) public static let shared = LiveLogHistory()
     
+#if canImport(Combine)
     /// Array of debug log messages. Published for SwiftUI observation
     @usableFromInline
     @Published var logs: [Log.DebugMessage] = []
+#else
+    /// Array of debug log messages. Published for SwiftUI observation
+    @usableFromInline
+    var logs: [Log.DebugMessage] = []
+#endif
     
     /// Recursive lock for thread-safe log operations.
     @usableFromInline

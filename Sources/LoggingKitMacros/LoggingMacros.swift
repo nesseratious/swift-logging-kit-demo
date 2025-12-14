@@ -5,6 +5,7 @@
 //  Created by Denis Esie on 27.11.2025.
 //
 
+import Foundation
 import SwiftCompilerPlugin
 import SwiftSyntax
 import SwiftSyntaxBuilder
@@ -23,7 +24,7 @@ final class PrivacyRedactingSyntaxRewriter: SyntaxRewriter {
             if case .expressionSegment(let exprSegment) = segment {
                 // Check if this interpolation has a privacy argument
                 if let privacyArg = exprSegment.expressions.first(where: { $0.label?.text == "privacy" }) {
-                    let privacyValue = privacyArg.expression.description.trimmingCharacters(in: .whitespaces)
+                    let privacyValue = privacyArg.expression.description.trimmingCharacters(in: CharacterSet.whitespaces)
                     
                     if privacyValue == ".public" {
                         // Keep the interpolation but remove the privacy argument

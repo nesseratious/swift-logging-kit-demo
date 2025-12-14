@@ -7,9 +7,154 @@
 //
 
 import Foundation
+@_exported import struct Foundation.Date
+
+#if canImport(OSLog)
 import OSLog
 @_exported import struct OSLog.Logger
-@_exported import struct Foundation.Date
+#else
+
+#if os(Windows)
+import WinSDK
+#endif
+
+// Stub Logger for platforms without OSLog (Windows)
+public struct Logger {
+    public let subsystem: String
+    public let category: String
+    
+    public init(subsystem: String, category: String) {
+        self.subsystem = subsystem
+        self.category = category
+    }
+    
+#if os(Windows)
+    // Windows Console API color codes
+    private enum ConsoleColor: WORD {
+        case black = 0
+        case darkBlue = 1
+        case darkGreen = 2
+        case darkCyan = 3
+        case darkRed = 4
+        case darkMagenta = 5
+        case darkYellow = 6
+        case gray = 7
+        case darkGray = 8
+        case blue = 9
+        case green = 10
+        case cyan = 11
+        case red = 12
+        case magenta = 13
+        case yellow = 14
+        case white = 15
+    }
+    
+    nonisolated(unsafe) private static let consoleHandle: HANDLE? = {
+        let handle = GetStdHandle(STD_OUTPUT_HANDLE)
+        return handle != INVALID_HANDLE_VALUE ? handle : nil
+    }()
+    
+    private static let originalAttributes: WORD? = {
+        guard let handle = consoleHandle else { return nil }
+        var info: CONSOLE_SCREEN_BUFFER_INFO = CONSOLE_SCREEN_BUFFER_INFO()
+        guard GetConsoleScreenBufferInfo(handle, &info) else { return nil }
+        return info.wAttributes
+    }()
+    
+    private func setConsoleColor(_ color: ConsoleColor) {
+        guard let handle = Self.consoleHandle else { return }
+        SetConsoleTextAttribute(handle, color.rawValue)
+    }
+    
+    private func restoreConsoleColor() {
+        guard let handle = Self.consoleHandle,
+              let original = Self.originalAttributes else { return }
+        SetConsoleTextAttribute(handle, original)
+    }
+    
+    private func log(level: String, message: String, color: ConsoleColor) {
+        let timestamp = Log.dateFormatter.string(from: Date())
+        let output = "\(level) \(timestamp) [\(subsystem)] [\(category)] \(message)"
+        
+        setConsoleColor(color)
+        print(output)
+        restoreConsoleColor()
+    }
+    
+    public func trace(_ message: String) {
+        log(level: "TRACE", message: message, color: .darkGray)
+    }
+    
+    public func debug(_ message: String) {
+        log(level: "DEBUG", message: message, color: .gray)
+    }
+    
+    public func info(_ message: String) {
+        log(level: "INFO ", message: message, color: .cyan)
+    }
+    
+    public func notice(_ message: String) {
+        log(level: "NOTICE", message: message, color: .blue)
+    }
+    
+    public func warning(_ message: String) {
+        log(level: "WARN ", message: message, color: .red)
+    }
+    
+    public func error(_ message: String) {
+        log(level: "ERROR", message: message, color: .red)
+    }
+    
+    public func critical(_ message: String) {
+        log(level: "CRITICAL", message: message, color: .magenta)
+    }
+    
+    public func fault(_ message: String) {
+        log(level: "FAULT", message: message, color: .magenta)
+    }
+#else
+    
+    // Fallback for non-Windows platforms without OSLog
+    private func log(level: String, message: String) {
+        let timestamp = Log.dateFormatter.string(from: Date())
+        let output = "\(level) \(timestamp) [\(subsystem)] [\(category)] \(message)"
+        print(output)
+    }
+    
+    public func trace(_ message: String) {
+        log(level: "TRACE", message: message)
+    }
+    
+    public func debug(_ message: String) {
+        log(level: "DEBUG", message: message)
+    }
+    
+    public func info(_ message: String) {
+        log(level: "INFO ", message: message)
+    }
+    
+    public func notice(_ message: String) {
+        log(level: "NOTICE", message: message)
+    }
+    
+    public func warning(_ message: String) {
+        log(level: "WARN ", message: message)
+    }
+    
+    public func error(_ message: String) {
+        log(level: "ERROR", message: message)
+    }
+    
+    public func critical(_ message: String) {
+        log(level: "CRITICAL", message: message)
+    }
+    
+    public func fault(_ message: String) {
+        log(level: "FAULT", message: message)
+    }
+#endif // os(Windows)
+}
+#endif // canImport(OSLog)
 
 /// Main logging interface providing signal handling and log file management.
 public enum Log {
@@ -90,6 +235,9 @@ public enum Log {
     nonisolated(unsafe) public static var fileAppendingType: FileAppendingType = .appendToExistingLogFile
     
     nonisolated(unsafe) public static var fileLimit: Int = 2_500
+    
+    /// Controls whether session header and footer are written when saving log sessions. Default is `true`.
+    nonisolated(unsafe) public static var writeSessionHeaderAndFooter: Bool = true
 }
 
 extension Log {
@@ -246,7 +394,9 @@ extension Log: Loggable {
     /// The file name format is: `{logFilePrefix}_{sessionID}_{date}.log`
     /// If `logPath` is set to `.absolute`, the log file will be written to that path instead.
     public static func saveCurrentSession() {
-        let log = "--- LOG FOR SESSION \(sessionID) AT \(dateFormatter.string(from: Date())) ---"
+        let log: String
+        if writeSessionHeaderAndFooter {
+            log = "--- LOG FOR SESSION \(sessionID) AT \(dateFormatter.string(from: Date())) ---"
                 + "\n"
                 + "\n"
                 + History.converged()
@@ -254,6 +404,10 @@ extension Log: Loggable {
                 + "\n"
                 + "--- END LOG FOR SESSION \(sessionID) ---"
                 + "\n"
+        } else {
+            log = History.converged()
+                + "\n"
+        }
         
         let fileManager = FileManager.default
         let directoryURL: URL

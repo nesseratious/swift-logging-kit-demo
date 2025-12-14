@@ -12,11 +12,11 @@ struct ExampleLogger: Loggable {
     static let subsystem = "Example"
     
     // Demonstrate using macros within a type context
-    func demonstrateMacros(foo: Bool) {
-        #logTrace("This is a trace message using the #logTrace macro \("CARD NUMBER: 1234456677", privacy: .sensitive)")
+    func demonstrateMacros() {
+        #logTrace("This is a trace message using the #logTrace macro \("CARD NUMBER: 1234456677")")
         #logDebug("This is a trace message using the #logDebug macro")
         #logInfo("This is an info message using the #logInfo macro")
-        #logUserEvent("This is a user event message using the \("#logUserEvent macro", privacy: .public)")
+        #logUserEvent("This is a user event message using the #logUserEvent macro")
         #logPerformance("This is a performance message using the #logPerformance macro")
         #logSuccess("This is an success message using the #logSuccess macro")
         #logWarning("This is a warning using the #logWarning macro")
@@ -34,20 +34,35 @@ struct ExampleLogger: Loggable {
     }
 }
 
+#if os(Windows)
+#logInfo("HELLO FROM WINDOWS!")
+Log.logPath = .absolute("C:\\Users\\desie\\swift-logging-kit\\ExampleLogs")
+#else
 Log.logPath = .absolute("/Users/denisesie/dx-modules/swift-logging-kit/ExampleLogs")
+#endif
+
 Log.defaultLogFileName = "Log"
 Log.fileAppendingType = .appendToExistingLogFile
 Log.enableLiveLogging = false
 Log.enableVerboseLogging = false
-//Log.logLevel = Log.Level.Trace
+Log.logLevel = Log.Level.Trace
 
 //OSLogMessageExample()
-//InjectedLoggerExample()
-//TimelineRenderer().render()
-//FileLoggingDemo().run()
+// InjectedLoggerExample()
+TimelineRenderer().render()
+FileLoggingDemo().run()
 //ExampleFunctionLogger().run()
-VerboseLogger().run()
+//VerboseLogger().run()
 
-//ExampleLogger().demonstrateMacros(foo: true)
+ExampleLogger().demonstrateMacros()
 
 Log.saveCurrentSession()
+
+#if os(Windows)
+// Display the Windows live logs view window
+LiveLogsView().display()
+#else
+// Wait for user input before closing
+print("\nPress Enter to exit...")
+_ = readLine()
+#endif

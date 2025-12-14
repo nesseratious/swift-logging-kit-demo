@@ -7,10 +7,12 @@
 
 import Foundation
 
+#if os(macOS) || os(tvOS) || os(watchOS) || os(iOS) || os(visionOS)
+
 @objc
 extension NSObject {
     
-    private struct InternalLogger<NSObject>: Loggable, LogFunctionsProtocol {
+    private struct InternalLogger<NSObject>: Loggable {
         static var subsystem: String {
             return "\(self.self)"
         }
@@ -161,3 +163,5 @@ extension NSObject {
         Self.logFault(message, file, function)
     }
 }
+
+#endif // os(macOS) || os(tvOS) || os(watchOS) || os(iOS) || os(visionOS)

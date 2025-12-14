@@ -28,13 +28,17 @@ extension Log {
             current.append(log)
             
             if current.count.load(ordering: .acquiring) == limitPerFile {
-                Log.saveCurrentSession()
-                current.clear()
+                saveAndClear()
             }
         }
         
         nonisolated public static func converged() -> String {
             return current.converged()
+        }
+
+        nonisolated public static func saveAndClear() {
+            Log.saveCurrentSession()
+            current.clear()
         }
     }
 }

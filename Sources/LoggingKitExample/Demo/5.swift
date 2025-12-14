@@ -9,9 +9,9 @@ import LoggingKit
 
 struct FileLoggingDemo {
     func run() {
-        Log.defaultLogFileName = "FileLoggingDemoFile"
+        Log.defaultLogFileName = "LoggingDemoFile"
         Log.fileAppendingType = .appendCreatingNewFileIfLimitIsReached
-//        Log.fileLimit = 200
+        Log.fileLimit = 200
         
         for i in 1...100 {
             #logInfo("Hello, world! \(i)")

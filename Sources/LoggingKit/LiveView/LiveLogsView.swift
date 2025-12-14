@@ -6,10 +6,13 @@
 //
 
 import Foundation
+
+#if canImport(SwiftUI)
 import SwiftUI
 import Combine
 
 /// SwiftUI view for displaying and searching through debug logs.
+@available(iOS 15, macCatalyst 15.0, macOS 13.0, watchOS 10.0, *)
 public struct LiveLogsView: View {
     @ObservedObject var model = LiveLogsViewModel()
     
@@ -156,11 +159,18 @@ public struct LiveLogsView: View {
         }
     }
 }
+#endif // canImport(SwiftUI)
 
 private enum PreviewLogger: LogFunctionsProtocol {
     static let subsystem = "PreviewLogger"
 }
 
+#if canImport(SwiftUI)
 #Preview {
-    LiveLogsView()
+    if #available(iOS 15, macCatalyst 15.0, macOS 13.0, watchOS 10.0, *) {
+        LiveLogsView()
+    } else {
+        Text(verbatim: "Not Available")
+    }
 }
+#endif // canImport(SwiftUI)

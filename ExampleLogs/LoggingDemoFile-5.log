@@ -1,0 +1,272 @@
+--- LOG FOR SESSION 6D13728C-DE8E-4630-9969-3DB0C6FFA660 AT 2025-12-14 18:35:25.839 ---
+
+INFO   2025-12-14 18:35:25.831 [Default]  HELLO FROM WINDOWS!
+TRACE  2025-12-14 18:35:25.831 [Timeline]  Entering render function, initializing timeline components
+TRACE  2025-12-14 18:35:25.832 [Day Renderer]  Rendering day with index 0
+TRACE  2025-12-14 18:35:25.832 [Day Renderer]  Rendering day with index 1
+TRACE  2025-12-14 18:35:25.832 [Day Renderer]  Rendering day with index 2
+TRACE  2025-12-14 18:35:25.832 [Day Renderer]  Rendering day with index 3
+TRACE  2025-12-14 18:35:25.832 [Day Renderer]  Rendering day with index 4
+TRACE  2025-12-14 18:35:25.832 [Day Renderer]  Rendering day with index 5
+TRACE  2025-12-14 18:35:25.832 [Day Renderer]  Rendering day with index 6
+TRACE  2025-12-14 18:35:25.832 [Day Renderer]  Rendering day with index 7
+TRACE  2025-12-14 18:35:25.832 [Day Renderer]  Rendering day with index 8
+TRACE  2025-12-14 18:35:25.832 [Day Renderer]  Rendering day with index 9
+TRACE  2025-12-14 18:35:25.832 [Day Renderer]  Rendering day with index 10
+DEBUG  2025-12-14 18:35:25.832 [Timeline]  Timeline data loaded: 42 events found
+INFO   2025-12-14 18:35:25.832 [Timeline]  Rendering timeline view for user dashboard
+WARNG  2025-12-14 18:35:25.832 [Timeline]  Timeline cache is nearly full, consider clearing old entries
+CRITCL 2025-12-14 18:35:25.832 [Timeline]  Timeline renderer failed: memory allocation failed
+FAULT  2025-12-14 18:35:25.832 [Timeline]  System fault detected: divide by zero, universe is collapsing
+INFO   2025-12-14 18:35:25.832 [Default]  Hello, world! 1
+INFO   2025-12-14 18:35:25.833 [Default]  Hello, world! 2
+INFO   2025-12-14 18:35:25.833 [Default]  Hello, world! 3
+INFO   2025-12-14 18:35:25.833 [Default]  Hello, world! 4
+INFO   2025-12-14 18:35:25.833 [Default]  Hello, world! 5
+INFO   2025-12-14 18:35:25.833 [Default]  Hello, world! 6
+INFO   2025-12-14 18:35:25.833 [Default]  Hello, world! 7
+INFO   2025-12-14 18:35:25.833 [Default]  Hello, world! 8
+INFO   2025-12-14 18:35:25.833 [Default]  Hello, world! 9
+INFO   2025-12-14 18:35:25.833 [Default]  Hello, world! 10
+INFO   2025-12-14 18:35:25.833 [Default]  Hello, world! 11
+INFO   2025-12-14 18:35:25.833 [Default]  Hello, world! 12
+INFO   2025-12-14 18:35:25.833 [Default]  Hello, world! 13
+INFO   2025-12-14 18:35:25.833 [Default]  Hello, world! 14
+INFO   2025-12-14 18:35:25.833 [Default]  Hello, world! 15
+INFO   2025-12-14 18:35:25.833 [Default]  Hello, world! 16
+INFO   2025-12-14 18:35:25.833 [Default]  Hello, world! 17
+INFO   2025-12-14 18:35:25.834 [Default]  Hello, world! 18
+INFO   2025-12-14 18:35:25.834 [Default]  Hello, world! 19
+INFO   2025-12-14 18:35:25.834 [Default]  Hello, world! 20
+INFO   2025-12-14 18:35:25.834 [Default]  Hello, world! 21
+INFO   2025-12-14 18:35:25.834 [Default]  Hello, world! 22
+INFO   2025-12-14 18:35:25.834 [Default]  Hello, world! 23
+INFO   2025-12-14 18:35:25.834 [Default]  Hello, world! 24
+INFO   2025-12-14 18:35:25.834 [Default]  Hello, world! 25
+INFO   2025-12-14 18:35:25.834 [Default]  Hello, world! 26
+INFO   2025-12-14 18:35:25.834 [Default]  Hello, world! 27
+INFO   2025-12-14 18:35:25.834 [Default]  Hello, world! 28
+INFO   2025-12-14 18:35:25.834 [Default]  Hello, world! 29
+INFO   2025-12-14 18:35:25.834 [Default]  Hello, world! 30
+INFO   2025-12-14 18:35:25.834 [Default]  Hello, world! 31
+INFO   2025-12-14 18:35:25.834 [Default]  Hello, world! 32
+INFO   2025-12-14 18:35:25.834 [Default]  Hello, world! 33
+INFO   2025-12-14 18:35:25.834 [Default]  Hello, world! 34
+INFO   2025-12-14 18:35:25.834 [Default]  Hello, world! 35
+INFO   2025-12-14 18:35:25.834 [Default]  Hello, world! 36
+INFO   2025-12-14 18:35:25.834 [Default]  Hello, world! 37
+INFO   2025-12-14 18:35:25.835 [Default]  Hello, world! 38
+INFO   2025-12-14 18:35:25.835 [Default]  Hello, world! 39
+INFO   2025-12-14 18:35:25.835 [Default]  Hello, world! 40
+INFO   2025-12-14 18:35:25.835 [Default]  Hello, world! 41
+INFO   2025-12-14 18:35:25.835 [Default]  Hello, world! 42
+INFO   2025-12-14 18:35:25.835 [Default]  Hello, world! 43
+INFO   2025-12-14 18:35:25.835 [Default]  Hello, world! 44
+INFO   2025-12-14 18:35:25.835 [Default]  Hello, world! 45
+INFO   2025-12-14 18:35:25.835 [Default]  Hello, world! 46
+INFO   2025-12-14 18:35:25.835 [Default]  Hello, world! 47
+INFO   2025-12-14 18:35:25.835 [Default]  Hello, world! 48
+INFO   2025-12-14 18:35:25.835 [Default]  Hello, world! 49
+INFO   2025-12-14 18:35:25.835 [Default]  Hello, world! 50
+INFO   2025-12-14 18:35:25.835 [Default]  Hello, world! 51
+INFO   2025-12-14 18:35:25.835 [Default]  Hello, world! 52
+INFO   2025-12-14 18:35:25.835 [Default]  Hello, world! 53
+INFO   2025-12-14 18:35:25.835 [Default]  Hello, world! 54
+INFO   2025-12-14 18:35:25.835 [Default]  Hello, world! 55
+INFO   2025-12-14 18:35:25.835 [Default]  Hello, world! 56
+INFO   2025-12-14 18:35:25.835 [Default]  Hello, world! 57
+INFO   2025-12-14 18:35:25.835 [Default]  Hello, world! 58
+INFO   2025-12-14 18:35:25.836 [Default]  Hello, world! 59
+INFO   2025-12-14 18:35:25.836 [Default]  Hello, world! 60
+INFO   2025-12-14 18:35:25.836 [Default]  Hello, world! 61
+INFO   2025-12-14 18:35:25.836 [Default]  Hello, world! 62
+INFO   2025-12-14 18:35:25.836 [Default]  Hello, world! 63
+INFO   2025-12-14 18:35:25.836 [Default]  Hello, world! 64
+INFO   2025-12-14 18:35:25.836 [Default]  Hello, world! 65
+INFO   2025-12-14 18:35:25.836 [Default]  Hello, world! 66
+INFO   2025-12-14 18:35:25.836 [Default]  Hello, world! 67
+INFO   2025-12-14 18:35:25.836 [Default]  Hello, world! 68
+INFO   2025-12-14 18:35:25.836 [Default]  Hello, world! 69
+INFO   2025-12-14 18:35:25.836 [Default]  Hello, world! 70
+INFO   2025-12-14 18:35:25.836 [Default]  Hello, world! 71
+INFO   2025-12-14 18:35:25.836 [Default]  Hello, world! 72
+INFO   2025-12-14 18:35:25.836 [Default]  Hello, world! 73
+INFO   2025-12-14 18:35:25.837 [Default]  Hello, world! 74
+INFO   2025-12-14 18:35:25.837 [Default]  Hello, world! 75
+INFO   2025-12-14 18:35:25.837 [Default]  Hello, world! 76
+INFO   2025-12-14 18:35:25.837 [Default]  Hello, world! 77
+INFO   2025-12-14 18:35:25.837 [Default]  Hello, world! 78
+INFO   2025-12-14 18:35:25.837 [Default]  Hello, world! 79
+INFO   2025-12-14 18:35:25.837 [Default]  Hello, world! 80
+INFO   2025-12-14 18:35:25.837 [Default]  Hello, world! 81
+INFO   2025-12-14 18:35:25.837 [Default]  Hello, world! 82
+INFO   2025-12-14 18:35:25.837 [Default]  Hello, world! 83
+INFO   2025-12-14 18:35:25.837 [Default]  Hello, world! 84
+INFO   2025-12-14 18:35:25.837 [Default]  Hello, world! 85
+INFO   2025-12-14 18:35:25.837 [Default]  Hello, world! 86
+INFO   2025-12-14 18:35:25.837 [Default]  Hello, world! 87
+INFO   2025-12-14 18:35:25.837 [Default]  Hello, world! 88
+INFO   2025-12-14 18:35:25.838 [Default]  Hello, world! 89
+INFO   2025-12-14 18:35:25.838 [Default]  Hello, world! 90
+INFO   2025-12-14 18:35:25.838 [Default]  Hello, world! 91
+INFO   2025-12-14 18:35:25.838 [Default]  Hello, world! 92
+INFO   2025-12-14 18:35:25.838 [Default]  Hello, world! 93
+INFO   2025-12-14 18:35:25.838 [Default]  Hello, world! 94
+INFO   2025-12-14 18:35:25.838 [Default]  Hello, world! 95
+INFO   2025-12-14 18:35:25.838 [Default]  Hello, world! 96
+INFO   2025-12-14 18:35:25.838 [Default]  Hello, world! 97
+INFO   2025-12-14 18:35:25.838 [Default]  Hello, world! 98
+INFO   2025-12-14 18:35:25.838 [Default]  Hello, world! 99
+INFO   2025-12-14 18:35:25.838 [Default]  Hello, world! 100
+TRACE  2025-12-14 18:35:25.838 [Example]  This is a trace message using the #logTrace macro CARD NUMBER: 1234456677
+DEBUG  2025-12-14 18:35:25.838 [Example]  This is a trace message using the #logDebug macro
+INFO   2025-12-14 18:35:25.838 [Example]  This is an info message using the #logInfo macro
+EVENT  2025-12-14 18:35:25.838 [Example]  This is a user event message using the #logUserEvent macro
+PERFR  2025-12-14 18:35:25.838 [Example]  This is a performance message using the #logPerformance macro
+SCCSS  2025-12-14 18:35:25.838 [Example]  This is an success message using the #logSuccess macro
+WARNG  2025-12-14 18:35:25.838 [Example]  This is a warning using the #logWarning macro
+NOTICE 2025-12-14 18:35:25.839 [Example]  This is a notice using the #logNotice macro
+ERROR  2025-12-14 18:35:25.839 [Example]  This is an error using the #logError macro
+CRITCL 2025-12-14 18:35:25.839 [Example]  This is a critial using the #logCritical macro
+FAULT  2025-12-14 18:35:25.839 [Example]  This is a fault using the #logFault macro
+INFO   2025-12-14 18:35:25.839 [Example]  This info message uses a custom logger
+WARNG  2025-12-14 18:35:25.839 [Example]  This warning uses a custom logger
+ERROR  2025-12-14 18:35:25.839 [Example]  This error uses a custom logger
+
+--- END LOG FOR SESSION 6D13728C-DE8E-4630-9969-3DB0C6FFA660 ---
+--- LOG FOR SESSION 6D13728C-DE8E-4630-9969-3DB0C6FFA660 AT 2025-12-14 18:35:25.844 ---
+
+INFO   2025-12-14 18:35:25.831 [Default]  HELLO FROM WINDOWS!
+TRACE  2025-12-14 18:35:25.831 [Timeline]  Entering render function, initializing timeline components
+TRACE  2025-12-14 18:35:25.832 [Day Renderer]  Rendering day with index 0
+TRACE  2025-12-14 18:35:25.832 [Day Renderer]  Rendering day with index 1
+TRACE  2025-12-14 18:35:25.832 [Day Renderer]  Rendering day with index 2
+TRACE  2025-12-14 18:35:25.832 [Day Renderer]  Rendering day with index 3
+TRACE  2025-12-14 18:35:25.832 [Day Renderer]  Rendering day with index 4
+TRACE  2025-12-14 18:35:25.832 [Day Renderer]  Rendering day with index 5
+TRACE  2025-12-14 18:35:25.832 [Day Renderer]  Rendering day with index 6
+TRACE  2025-12-14 18:35:25.832 [Day Renderer]  Rendering day with index 7
+TRACE  2025-12-14 18:35:25.832 [Day Renderer]  Rendering day with index 8
+TRACE  2025-12-14 18:35:25.832 [Day Renderer]  Rendering day with index 9
+TRACE  2025-12-14 18:35:25.832 [Day Renderer]  Rendering day with index 10
+DEBUG  2025-12-14 18:35:25.832 [Timeline]  Timeline data loaded: 42 events found
+INFO   2025-12-14 18:35:25.832 [Timeline]  Rendering timeline view for user dashboard
+WARNG  2025-12-14 18:35:25.832 [Timeline]  Timeline cache is nearly full, consider clearing old entries
+CRITCL 2025-12-14 18:35:25.832 [Timeline]  Timeline renderer failed: memory allocation failed
+FAULT  2025-12-14 18:35:25.832 [Timeline]  System fault detected: divide by zero, universe is collapsing
+INFO   2025-12-14 18:35:25.832 [Default]  Hello, world! 1
+INFO   2025-12-14 18:35:25.833 [Default]  Hello, world! 2
+INFO   2025-12-14 18:35:25.833 [Default]  Hello, world! 3
+INFO   2025-12-14 18:35:25.833 [Default]  Hello, world! 4
+INFO   2025-12-14 18:35:25.833 [Default]  Hello, world! 5
+INFO   2025-12-14 18:35:25.833 [Default]  Hello, world! 6
+INFO   2025-12-14 18:35:25.833 [Default]  Hello, world! 7
+INFO   2025-12-14 18:35:25.833 [Default]  Hello, world! 8
+INFO   2025-12-14 18:35:25.833 [Default]  Hello, world! 9
+INFO   2025-12-14 18:35:25.833 [Default]  Hello, world! 10
+INFO   2025-12-14 18:35:25.833 [Default]  Hello, world! 11
+INFO   2025-12-14 18:35:25.833 [Default]  Hello, world! 12
+INFO   2025-12-14 18:35:25.833 [Default]  Hello, world! 13
+INFO   2025-12-14 18:35:25.833 [Default]  Hello, world! 14
+INFO   2025-12-14 18:35:25.833 [Default]  Hello, world! 15
+INFO   2025-12-14 18:35:25.833 [Default]  Hello, world! 16
+INFO   2025-12-14 18:35:25.833 [Default]  Hello, world! 17
+INFO   2025-12-14 18:35:25.834 [Default]  Hello, world! 18
+INFO   2025-12-14 18:35:25.834 [Default]  Hello, world! 19
+INFO   2025-12-14 18:35:25.834 [Default]  Hello, world! 20
+INFO   2025-12-14 18:35:25.834 [Default]  Hello, world! 21
+INFO   2025-12-14 18:35:25.834 [Default]  Hello, world! 22
+INFO   2025-12-14 18:35:25.834 [Default]  Hello, world! 23
+INFO   2025-12-14 18:35:25.834 [Default]  Hello, world! 24
+INFO   2025-12-14 18:35:25.834 [Default]  Hello, world! 25
+INFO   2025-12-14 18:35:25.834 [Default]  Hello, world! 26
+INFO   2025-12-14 18:35:25.834 [Default]  Hello, world! 27
+INFO   2025-12-14 18:35:25.834 [Default]  Hello, world! 28
+INFO   2025-12-14 18:35:25.834 [Default]  Hello, world! 29
+INFO   2025-12-14 18:35:25.834 [Default]  Hello, world! 30
+INFO   2025-12-14 18:35:25.834 [Default]  Hello, world! 31
+INFO   2025-12-14 18:35:25.834 [Default]  Hello, world! 32
+INFO   2025-12-14 18:35:25.834 [Default]  Hello, world! 33
+INFO   2025-12-14 18:35:25.834 [Default]  Hello, world! 34
+INFO   2025-12-14 18:35:25.834 [Default]  Hello, world! 35
+INFO   2025-12-14 18:35:25.834 [Default]  Hello, world! 36
+INFO   2025-12-14 18:35:25.834 [Default]  Hello, world! 37
+INFO   2025-12-14 18:35:25.835 [Default]  Hello, world! 38
+INFO   2025-12-14 18:35:25.835 [Default]  Hello, world! 39
+INFO   2025-12-14 18:35:25.835 [Default]  Hello, world! 40
+INFO   2025-12-14 18:35:25.835 [Default]  Hello, world! 41
+INFO   2025-12-14 18:35:25.835 [Default]  Hello, world! 42
+INFO   2025-12-14 18:35:25.835 [Default]  Hello, world! 43
+INFO   2025-12-14 18:35:25.835 [Default]  Hello, world! 44
+INFO   2025-12-14 18:35:25.835 [Default]  Hello, world! 45
+INFO   2025-12-14 18:35:25.835 [Default]  Hello, world! 46
+INFO   2025-12-14 18:35:25.835 [Default]  Hello, world! 47
+INFO   2025-12-14 18:35:25.835 [Default]  Hello, world! 48
+INFO   2025-12-14 18:35:25.835 [Default]  Hello, world! 49
+INFO   2025-12-14 18:35:25.835 [Default]  Hello, world! 50
+INFO   2025-12-14 18:35:25.835 [Default]  Hello, world! 51
+INFO   2025-12-14 18:35:25.835 [Default]  Hello, world! 52
+INFO   2025-12-14 18:35:25.835 [Default]  Hello, world! 53
+INFO   2025-12-14 18:35:25.835 [Default]  Hello, world! 54
+INFO   2025-12-14 18:35:25.835 [Default]  Hello, world! 55
+INFO   2025-12-14 18:35:25.835 [Default]  Hello, world! 56
+INFO   2025-12-14 18:35:25.835 [Default]  Hello, world! 57
+INFO   2025-12-14 18:35:25.835 [Default]  Hello, world! 58
+INFO   2025-12-14 18:35:25.836 [Default]  Hello, world! 59
+INFO   2025-12-14 18:35:25.836 [Default]  Hello, world! 60
+INFO   2025-12-14 18:35:25.836 [Default]  Hello, world! 61
+INFO   2025-12-14 18:35:25.836 [Default]  Hello, world! 62
+INFO   2025-12-14 18:35:25.836 [Default]  Hello, world! 63
+INFO   2025-12-14 18:35:25.836 [Default]  Hello, world! 64
+INFO   2025-12-14 18:35:25.836 [Default]  Hello, world! 65
+INFO   2025-12-14 18:35:25.836 [Default]  Hello, world! 66
+INFO   2025-12-14 18:35:25.836 [Default]  Hello, world! 67
+INFO   2025-12-14 18:35:25.836 [Default]  Hello, world! 68
+INFO   2025-12-14 18:35:25.836 [Default]  Hello, world! 69
+INFO   2025-12-14 18:35:25.836 [Default]  Hello, world! 70
+INFO   2025-12-14 18:35:25.836 [Default]  Hello, world! 71
+INFO   2025-12-14 18:35:25.836 [Default]  Hello, world! 72
+INFO   2025-12-14 18:35:25.836 [Default]  Hello, world! 73
+INFO   2025-12-14 18:35:25.837 [Default]  Hello, world! 74
+INFO   2025-12-14 18:35:25.837 [Default]  Hello, world! 75
+INFO   2025-12-14 18:35:25.837 [Default]  Hello, world! 76
+INFO   2025-12-14 18:35:25.837 [Default]  Hello, world! 77
+INFO   2025-12-14 18:35:25.837 [Default]  Hello, world! 78
+INFO   2025-12-14 18:35:25.837 [Default]  Hello, world! 79
+INFO   2025-12-14 18:35:25.837 [Default]  Hello, world! 80
+INFO   2025-12-14 18:35:25.837 [Default]  Hello, world! 81
+INFO   2025-12-14 18:35:25.837 [Default]  Hello, world! 82
+INFO   2025-12-14 18:35:25.837 [Default]  Hello, world! 83
+INFO   2025-12-14 18:35:25.837 [Default]  Hello, world! 84
+INFO   2025-12-14 18:35:25.837 [Default]  Hello, world! 85
+INFO   2025-12-14 18:35:25.837 [Default]  Hello, world! 86
+INFO   2025-12-14 18:35:25.837 [Default]  Hello, world! 87
+INFO   2025-12-14 18:35:25.837 [Default]  Hello, world! 88
+INFO   2025-12-14 18:35:25.838 [Default]  Hello, world! 89
+INFO   2025-12-14 18:35:25.838 [Default]  Hello, world! 90
+INFO   2025-12-14 18:35:25.838 [Default]  Hello, world! 91
+INFO   2025-12-14 18:35:25.838 [Default]  Hello, world! 92
+INFO   2025-12-14 18:35:25.838 [Default]  Hello, world! 93
+INFO   2025-12-14 18:35:25.838 [Default]  Hello, world! 94
+INFO   2025-12-14 18:35:25.838 [Default]  Hello, world! 95
+INFO   2025-12-14 18:35:25.838 [Default]  Hello, world! 96
+INFO   2025-12-14 18:35:25.838 [Default]  Hello, world! 97
+INFO   2025-12-14 18:35:25.838 [Default]  Hello, world! 98
+INFO   2025-12-14 18:35:25.838 [Default]  Hello, world! 99
+INFO   2025-12-14 18:35:25.838 [Default]  Hello, world! 100
+TRACE  2025-12-14 18:35:25.838 [Example]  This is a trace message using the #logTrace macro CARD NUMBER: 1234456677
+DEBUG  2025-12-14 18:35:25.838 [Example]  This is a trace message using the #logDebug macro
+INFO   2025-12-14 18:35:25.838 [Example]  This is an info message using the #logInfo macro
+EVENT  2025-12-14 18:35:25.838 [Example]  This is a user event message using the #logUserEvent macro
+PERFR  2025-12-14 18:35:25.838 [Example]  This is a performance message using the #logPerformance macro
+SCCSS  2025-12-14 18:35:25.838 [Example]  This is an success message using the #logSuccess macro
+WARNG  2025-12-14 18:35:25.838 [Example]  This is a warning using the #logWarning macro
+NOTICE 2025-12-14 18:35:25.839 [Example]  This is a notice using the #logNotice macro
+ERROR  2025-12-14 18:35:25.839 [Example]  This is an error using the #logError macro
+CRITCL 2025-12-14 18:35:25.839 [Example]  This is a critial using the #logCritical macro
+FAULT  2025-12-14 18:35:25.839 [Example]  This is a fault using the #logFault macro
+INFO   2025-12-14 18:35:25.839 [Example]  This info message uses a custom logger
+WARNG  2025-12-14 18:35:25.839 [Example]  This warning uses a custom logger
+ERROR  2025-12-14 18:35:25.839 [Example]  This error uses a custom logger
+
+--- END LOG FOR SESSION 6D13728C-DE8E-4630-9969-3DB0C6FFA660 ---
