@@ -70,3 +70,7 @@ public macro logCritical(_ message: OSLogMessage, logger: Loggable.Type? = nil) 
 @freestanding(expression)
 public macro logFault(_ message: OSLogMessage, logger: Loggable.Type? = nil) -> Void = #externalMacro(module: "LoggingKitMacros", type: "LogFaultMacro")
 
+/// Macro for logging fault-level messages.
+/// Expands to: `Self.Fatal(message, #file, #function)`
+@freestanding(expression)
+public macro logFatal(_ message: OSLogMessage, logger: Loggable.Type? = nil) -> Never = #externalMacro(module: "LoggingKitMacros", type: "LogFatalMacro")

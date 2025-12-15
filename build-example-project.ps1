@@ -1,4 +1,4 @@
-# Build script for LoggingKitExample
+# Build script for LoggingKitExample on Windows
 # This script builds only the LoggingKitExample executable and copies it to Bin/
 
 Write-Host "Building LoggingKitExample..." -ForegroundColor Cyan

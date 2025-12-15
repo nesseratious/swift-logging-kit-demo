@@ -29,8 +29,8 @@ struct ExampleLogger: Loggable {
         #logInfo("This info message uses a custom logger", logger: ExampleLogger.self)
         #logWarning("This warning uses a custom logger", logger: ExampleLogger.self)
         #logError("This error uses a custom logger", logger: ExampleLogger.self)
-        
-        Log.saveCurrentSession()
+        #logInfo("Test message before fatal")
+        #logFatal("Test")
     }
 }
 
@@ -47,22 +47,17 @@ Log.enableLiveLogging = false
 Log.enableVerboseLogging = false
 Log.logLevel = Log.Level.Trace
 
-//OSLogMessageExample()
+// OSLogMessageExample()
 // InjectedLoggerExample()
-TimelineRenderer().render()
-FileLoggingDemo().run()
-//ExampleFunctionLogger().run()
-//VerboseLogger().run()
+// TimelineRenderer().render()
+// FileLoggingDemo().run()
+// ExampleFunctionLogger().run()
+// VerboseLogger().run()
 
 ExampleLogger().demonstrateMacros()
 
 Log.saveCurrentSession()
 
-#if os(Windows)
-// Display the Windows live logs view window
-LiveLogsView().display()
-#else
 // Wait for user input before closing
 print("\nPress Enter to exit...")
 _ = readLine()
-#endif

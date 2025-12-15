@@ -168,6 +168,7 @@ public enum Log {
         public static let Error    = 5
         public static let Critical = 6
         public static let Fault    = 7
+        public static let Fatal    = 8
     }
     
     /// Controls the minimum log level. Messages with a lower level will be ignored.
@@ -272,6 +273,22 @@ extension Log {
         fileNameCache[path] = result
         
         return result
+    }
+}
+
+extension Log {
+    @inlinable
+    @_alwaysEmitIntoClient
+    public static func _injected_logFatal(_ message: String, _ file: String = #file, _ function: String = #function) -> Never {
+        let fileName = Log.fileName(from: file)
+        let function = "\(fileName).\(function)"
+        Logger(subsystem: subsystem, category: function).fault("\(message)")
+        let message = "FATAL  \(Log.dateFormatter.string(from: Date())) [\(subsystem)] [\(function)] \(message)"
+        Log.History.add(message)
+        Log.callMessageHook(message)
+        Log.callFaultHook(subsystem, message)
+        Log.saveCurrentSession()
+        fatalError(message)
     }
 }
 

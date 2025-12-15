@@ -160,7 +160,7 @@ extension Log {
     /// Registers a hook for critical-level log messages.
     /// - Parameter hook: Hook called for critical-level messages. Receives subsystem and message.
     public static func registerFaultHook(_ hook: ((String, String) -> Void)?) {
-        criticalHook = hook
+        faultHook = hook
     }
 }
 

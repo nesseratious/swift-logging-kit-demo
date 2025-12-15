@@ -42,7 +42,7 @@ struct WeekView: View {
         }
     }
 }
-#endif
+#endif // canImport(SwiftUI)
 
 func globalFunction() {
     #logInfo("Rendering day with index")
